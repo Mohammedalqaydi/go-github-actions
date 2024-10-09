@@ -28,7 +28,7 @@ jobs:
       with:
         push: true
         tags: |
-          mmohammedalharbi/golang:latest
-          mmohammedalharbi/golang:${{ github.sha }}
+           mohammedalharbi/golang:tagname
+           mohammedalharbi/golang:tagname: ${{ github.sha }}
 
    
