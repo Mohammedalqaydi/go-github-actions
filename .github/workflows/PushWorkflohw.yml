@@ -23,7 +23,7 @@ jobs:
         password:  ${{ secrets.DOCKERHUB_TOKEN }}
         
 
-    - name: BUild and push the Docker image
+    - name: Baild and push the Docker image
       uses: docker/build-push-action@v6
       with:
         push: true
